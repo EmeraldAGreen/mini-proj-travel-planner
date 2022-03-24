@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const readerRoutes = require('./locationRoutes');
-const libraryCardRoutes = require('./travellerRoutes');
+const locationRoutes = require('./locationRoutes');
+const travellerRoutes = require('./travellerRoutes');
 
 router.use('/locations', locationRoutes);
 router.use('/travellers', travellerRoutes);
